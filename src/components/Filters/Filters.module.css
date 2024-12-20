@@ -1,0 +1,30 @@
+.filterContainer {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.filter:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.filter.active {
+  background-color: var(--color-primary);
+  color: white;
+}
